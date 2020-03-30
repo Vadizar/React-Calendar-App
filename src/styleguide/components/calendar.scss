@@ -1,0 +1,41 @@
+.calendar-label{
+    display: block;
+    font-size: 10px;
+    margin: 0 0 4px;
+}
+
+.react-datepicker-wrapper{
+    position: relative;
+    width: 300px;
+    input{
+        height: 40px;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 0 32px 0 8px;
+        border-radius: 3px;
+        border: 1px solid $light-gray;
+        transition: border-color .25s;
+        &::placeholder{
+            color: $placeholder-gray;
+        }
+        ::-moz-placeholder{ // for Firefox 19+
+            color: $placeholder-gray;
+        }
+        &[readOnly]{
+            color: $placeholder-gray;
+            pointer-events: none;
+        }
+        &:hover, &:focus{
+            border-color: #000;
+        }
+        &:disabled{
+            background: #F8F8F8;
+            color: $disabled-gray;
+        }
+    }
+    .icon{
+        position: absolute;
+        top: 14px;
+        right: 12px;
+    }
+}

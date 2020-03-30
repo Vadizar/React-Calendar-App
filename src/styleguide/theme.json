@@ -1,0 +1,31 @@
+{
+  "colors": {
+    "gray": "#cdcdcd",
+    "grayDark": "#8b8b8b",
+    "grayLight": "#f8f8f8",
+    "red": "#df1721",
+    "redPink": "#e21114",
+    "pinkRed": "#ff7272",
+    "pinkLight": "#f3f3f3",
+    "pink": "#ffe3e5",
+    "green": "#62b120",
+    "paleYellow": "#fbfbec",
+    "leafGreen": "#5fb304",
+    "jungleGreen": "#27ae60",
+    "paleGreen": "#d6f5bc",
+    "seashell": "#f1f1f1",
+    "alto": "#dadada",
+    "blue": "#2979ff",
+    "lightBlue": "#d7e6ff",
+    "mineShaft": "#333333",
+    "salmon": "#ff7272"
+  },
+  "breakpoints": {
+    "lg": "1600px",
+    "md": "1278px",
+    "sm": "767px"
+  },
+  "misc": {
+    "borderRadius": "3px"
+  }
+}
