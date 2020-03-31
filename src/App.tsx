@@ -17,7 +17,7 @@ function App() {
 
           <section>
             <h2>Calendar Popup</h2>
-            <label className="calendar-label">Date</label>
+            <label className="react-datepicker__label">Date</label>
             <CalendarPopup/>
           </section>
 

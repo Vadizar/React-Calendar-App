@@ -3,6 +3,8 @@ import DatePicker from "react-datepicker";
 
 import "react-datepicker/dist/react-datepicker.css"
 
+const today = new Date();
+
 class CalendarPopup extends React.Component {
     state = {
         startDate: new Date()
@@ -26,10 +28,11 @@ class CalendarPopup extends React.Component {
             <DatePicker
                 selected={this.state.startDate}
                 onChange={this.handleChange}
+                minDate={today}
                 placeholderText="Choose"
                 dateFormat="MM/dd/yy"
                 // className="calendar-input"
-                calendarClassName="calendar-popup"
+                calendarClassName="react-datepicker-popup"
             />
         );
     }

@@ -49,7 +49,7 @@ const Input: React.FC<IComponentProps> = ({
   return (
     <StyledInput>
       <label className="label">{label}</label>
-      <div className={clsx('input', { error, success }, className)}>
+      <div className={clsx('input', { error, success, icon }, className)}>
         <input onKeyPress={handleKeyPress} {...props} />
         {icon && <Icon name={icon} />}
       </div>
